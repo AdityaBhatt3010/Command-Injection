@@ -223,7 +223,7 @@ First, we tested the normal behavior using a valid IP address.
 
 This simply triggered a ping request to localhost, confirming the application executes system commands using the input.
 
-![Screenshot](Command_Injection/9.png)
+![Screenshot](Command_Injection/10.png)
 
 ---
 
@@ -245,7 +245,7 @@ www-data
 
 This confirms successful command injection and demonstrates that commands execute under the web server account.
 
-![Screenshot](Command_Injection/10.png)
+![Screenshot](Command_Injection/11.png)
 
 ---
 
@@ -269,7 +269,7 @@ The output revealed the flag stored on the server.
 THM{COMMAND_INJECTION_COMPLETE}
 ```
 
-![Screenshot](Command_Injection/11.png)
+![Screenshot](Command_Injection/12.png)
 
 ---
 
@@ -286,6 +286,8 @@ Flag contents
 ```
 THM{COMMAND_INJECTION_COMPLETE}
 ```
+
+![Screenshot](Command_Injection/9.png)
 
 ---
 
